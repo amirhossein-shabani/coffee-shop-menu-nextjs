@@ -105,7 +105,7 @@ function SectionTitle({ children }) {
       />
       <motion.h2
         style={{ color: textColor }}
-        className="text-lg font-medium tracking-[0.2em] whitespace-nowrap"
+        className="text-base font-medium tracking-[0.2em] whitespace-nowrap"
       >
         {children}
       </motion.h2>
@@ -170,7 +170,7 @@ function CategoryBox({ index, category }) {
         onClick={handleCategoryClick}
         className="w-full max-w-sm  min-h-[72px] rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm px-4 flex items-center gap-3 cursor-pointer hover:bg-white/10 transition-colors"
       >
-        <div className="relative flex-shrink-0 w-32 h-[8rem] overflow-hidden rounded-lg">
+        <div className="relative flex-shrink-0 w-32 h-32 overflow-hidden rounded-lg">
           <Image
             src={
               category.landingImageUrl
