@@ -105,7 +105,7 @@ function SectionTitle({ children }) {
       />
       <motion.h2
         style={{ color: textColor }}
-        className="text-lg font-semibold tracking-[0.2em] whitespace-nowrap"
+        className="text-lg font-medium tracking-[0.2em] whitespace-nowrap"
       >
         {children}
       </motion.h2>
@@ -324,7 +324,7 @@ export default function ScrollSections({
 
       {/* Section 1 — category boxes */}
       <section className="relative w-full max-w-3xl px-4 mx-auto mt-24 mb-16 overflow-hidden">
-        <SectionTitle>دسته‌بندی</SectionTitle>
+        <SectionTitle>دسته‌بندی مورد نظر خود را انتخاب کنید </SectionTitle>
         <div className="flex flex-col gap-4">
           {categories.map((category, i) => (
             <CategoryBox key={category.id} index={i} category={category} />
